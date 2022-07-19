@@ -21,7 +21,7 @@ spec:
       value: .
   pipelineRef:
     name: PIPELINE_NAME_PLACEHOLDER  
-    bundle:  quay.io/redhat-appstudio/build-templates-bundle:ad4c34b71d468a991450b0091cd96765471ed82d
+    bundle:  quay.io/redhat-appstudio/build-templates-bundle:7151d2167bbb7a73af9f45049bba4e0e477f73f0
   workspaces:
     - name: workspace
       persistentVolumeClaim:

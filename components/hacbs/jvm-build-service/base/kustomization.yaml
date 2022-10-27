@@ -17,8 +17,8 @@ patches:
 
 images:
 - name: hacbs-jvm-operator
-  newName: quay.io/redhat-appstudio/hacbs-jvm-controller
-  newTag: b07e73c9b43a83912d4f8c8e0ea12045495027d6
+  newName: quay.io/sdouglas/hacbs-jvm-controller
+  newTag: dev
 
 namespace: jvm-build-service
 

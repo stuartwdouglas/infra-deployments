@@ -15,7 +15,7 @@ patches:
         path: /spec/template/spec/containers/0/env/-
         value:
           name: IMAGE_REPO
-          value: quay.io/sdouglas/hacbs-jvm-controller
+          value: quay.io/sdouglas/
     target:
       kind: Deployment
       name: hacbs-jvm-operator

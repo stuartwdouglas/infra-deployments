@@ -10,7 +10,12 @@ patches:
         path: /spec/template/spec/containers/0/env/-
         value:
           name: IMAGE_TAG
-          value: c5dd2226190a1dcbfe06ea24c9d00034ac488e86
+          value: dev
+      - op: add
+        path: /spec/template/spec/containers/0/env/-
+        value:
+          name: IMAGE_REPO
+          value: quay.io/sdouglas/hacbs-jvm-controller
     target:
       kind: Deployment
       name: hacbs-jvm-operator

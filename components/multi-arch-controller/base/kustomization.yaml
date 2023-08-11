@@ -8,8 +8,8 @@ resources:
 
 images:
 - name: multi-arch-controller
-  newName: quay.io/redhat-user-workloads/rhtap-build-tenant/multi-arch-controller/multi-arch-controller
-  newTag: 2c339608511dbff22714240132af2bfcd5d2c8eb
+  newName: quay.io/sdouglas/multi-arch-controller
+  newTag: dev
 
 namespace: multi-arch-controller
 

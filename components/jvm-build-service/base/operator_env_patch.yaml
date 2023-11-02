@@ -4,3 +4,8 @@
   value:
   - name: IMAGE_TAG
     value: c2f9d383ecd274487e030792d9137b7cffa8056a
+- op: add
+  path: /spec/template/spec/containers/0/env
+  value:
+  - name: "USE_IMAGE_SPI"
+    value: "true"
